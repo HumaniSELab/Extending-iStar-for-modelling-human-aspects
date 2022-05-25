@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="project" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="iStar Diagram" domainClass="sirius::diagramContainer" enablePopupBars="true">
+      <metamodel href="http://www.Monash.org/siriusSirius#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="iStarDiagram" semanticCandidatesExpression="feature:diagram" domainClass="sirius::iStarDiagram">
+          <style xsi:type="style:EllipseNodeDescription" borderSizeComputationExpression="5" borderLineStyle="dash" labelSize="12" showIcon="false" labelExpression="" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Smart home" domainClass="sirius::actor">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="25" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/iStar.project.design/actor.gif">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Self-Sufficient" domainClass="sirius::quality">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="25" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/iStar.project.design/quality.gif">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Automatic personal alarm for emergency" domainClass="sirius::task">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="25" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/iStar.project.design/task.gif">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Easy option for self assesment and help" domainClass="sirius::task"/>
+        <nodeMappings name="Independent Living Context" domainClass="sirius::taskContext">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="25" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/iStar.project.design/taskContext.gif">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Responsive Context" domainClass="sirius::taskContext"/>
+        <nodeMappings name="Independent Living Context" domainClass="sirius::taskContext"/>
+        <nodeMappings name="Motion Sensor for fall detection" domainClass="sirius::quality"/>
+        <nodeMappings name="Reminders" domainClass="sirius::task"/>
+        <nodeMappings name="Keep the relatives updated" domainClass="sirius::task"/>
+        <edgeMappings name="Signifies" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='iStar%20Diagram']/@defaultLayer/@nodeMappings[name='Independent%20Living%20Context']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='iStar%20Diagram']/@defaultLayer/@nodeMappings[name='Automatic%20personal%20alarm%20for%20emergency']" targetFinderExpression="feature:Signifies">
+          <style lineStyle="dash" targetArrow="InputFillClosedArrow" sizeComputationExpression="7">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Contributes" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='iStar%20Diagram']/@defaultLayer/@nodeMappings[name='Automatic%20personal%20alarm%20for%20emergency']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='iStar%20Diagram']/@defaultLayer/@nodeMappings[name='Self-Sufficient']" targetFinderExpression="feature:contributesTo">
+          <style sizeComputationExpression="6">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="iStar.project.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

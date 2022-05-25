@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sirius:diagramContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sirius="http://www.Monash.org/siriusSirius">
+  <diagram name="">
+    <elements xsi:type="sirius:quality" name="Self-Sufficient"/>
+    <elements xsi:type="sirius:task" name="Motion sensor for fall detection" contributesTo="//@diagram.0/@elements.0"/>
+    <elements xsi:type="sirius:task" name="Automatic personal alarm for emergency" contributesTo="//@diagram.0/@elements.0"/>
+    <elements xsi:type="sirius:task" name="Easy option for self assesment and help" contributesTo="//@diagram.0/@elements.0"/>
+    <elements xsi:type="sirius:taskContext" name="Independent Living Context" Signifies="//@diagram.0/@elements.1"/>
+    <elements xsi:type="sirius:taskContext" name="Responsive Context" Signifies="//@diagram.0/@elements.2"/>
+    <elements xsi:type="sirius:taskContext" name="Independent Living Context" Signifies="//@diagram.0/@elements.3"/>
+    <elements xsi:type="sirius:task" name="Allow user approved option only" contributesTo="//@diagram.0/@elements.9"/>
+    <elements xsi:type="sirius:task" name="Provide flexibility" contributesTo="//@diagram.0/@elements.9"/>
+    <elements xsi:type="sirius:quality" name="User Power"/>
+    <elements xsi:type="sirius:taskContext" name="Control Context" Signifies="//@diagram.0/@elements.7"/>
+    <elements xsi:type="sirius:taskContext" name="Independent Living Context" Signifies="//@diagram.0/@elements.8"/>
+    <elements xsi:type="sirius:quality" name="Privacy"/>
+    <elements xsi:type="sirius:task" name="Encrypt user data" contributesTo="//@diagram.0/@elements.12"/>
+    <elements xsi:type="sirius:task" name="Clear data usage communication" contributesTo="//@diagram.0/@elements.12"/>
+    <elements xsi:type="sirius:taskContext" name="Control Context" Signifies="//@diagram.0/@elements.13"/>
+    <elements xsi:type="sirius:taskContext" name="Control Context" Signifies="//@diagram.0/@elements.14"/>
+    <actor xsi:type="sirius:actor" name="Smart home"/>
+  </diagram>
+</sirius:diagramContainer>

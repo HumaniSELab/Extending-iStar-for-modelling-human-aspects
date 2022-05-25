@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:sirius="http://www.Monash.org/siriusSirius" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_C-7tkK9ZEeu_LrP0FvW-3w" selectedViews="_Yi5v4K9aEeu_LrP0FvW-3w" version="14.3.1.202003261200">
+    <semanticResources>My.sirius</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_Yi5v4K9aEeu_LrP0FvW-3w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/sirius.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Znag4a9aEeu_LrP0FvW-3w" name="iStarDiagram" repPath="#_ZnYrsK9aEeu_LrP0FvW-3w" changeId="b9b5357b-a42f-492b-902c-dcedd60dbe92">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/sirius.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='iStarDiagram']"/>
+        <target xmi:type="sirius:diagramContainer" href="My.sirius#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_ZnYrsK9aEeu_LrP0FvW-3w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ZnbH8K9aEeu_LrP0FvW-3w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_ZnbH8a9aEeu_LrP0FvW-3w" type="Sirius" element="_ZnYrsK9aEeu_LrP0FvW-3w" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_ZnbH8q9aEeu_LrP0FvW-3w"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_ZnbvAK9aEeu_LrP0FvW-3w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_ZnbvAa9aEeu_LrP0FvW-3w"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/sirius.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='iStarDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_ZnYrsa9aEeu_LrP0FvW-3w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/sirius.project.design/description/project.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='iStarDiagram']/@defaultLayer"/>
+    <target xmi:type="sirius:diagramContainer" href="My.sirius#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
