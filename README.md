@@ -1,4 +1,4 @@
-# Extending-iStar-for-modelling-human-aspects
+# Extending iStar for modelling human aspects
 
 Human-centric characteristics of software end users, such as gender, age, emotions, personality, language, culture and physical and mental impairments, play an essential role in the uptake and usage of the software.
 
